@@ -57,12 +57,6 @@ form .info .sub-text{
 .stats .num-box{
     margin: 10px 25px;
 }
-.stats .num-box .bold-text{
-    text-transform: uppercase;
-}
-.stats .num-box .sub-text{
-    text-transform: capitalize;
-}
 footer{
     text-align: center;
     margin-top: 10px auto; 
