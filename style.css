@@ -62,3 +62,11 @@ footer{
     margin-top: 10px auto; 
 }
 
+
+/* mobile design */
+@media(max-width:375px){
+    .card{
+        margin: 100px auto;
+    }
+    
+}
