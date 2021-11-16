@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* fonts */
+body{
+    /* background: url('./images/bg-pattern-top.svg'); */
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(to right,rgb(14, 94, 114), rgb(92, 88, 88)) ;
+}
+/* multi */
+.bold-text{
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.sub-text{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.card{
+    width: 340px;
+    margin: 200px auto;
+    background: url('./images/bg-pattern-card.svg');
+    background-repeat: repeat-y;
+    border-radius: 15px;
+}
+.top{
+    height: 80px;
+
+}
+fieldset{
+    margin: 0;
+    background-color: aliceblue;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+form{
+    text-align: center;
+}
+form legend img{
+    border: 4px solid white;
+    border-radius: 50%;
+}
+form .info .sub-text{
+    margin: 10px;
+}
+
+/* stats section */
+.stats {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    border-top: 1px solid hsl(229, 23%, 23%, 0.1);
+    /* width: 80px; */
+}
+.stats .num-box{
+    margin: 10px 25px;
+}
+footer{
+    text-align: center;
+    margin-top: 10px auto; 
+}
+
